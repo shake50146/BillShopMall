@@ -23,6 +23,7 @@
     </properties>
 
     <dependencies>
+        <!-- starter會導入所有web需要的依賴 如: spring-webmvc servlet jackson -->
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

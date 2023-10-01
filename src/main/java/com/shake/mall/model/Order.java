@@ -5,4 +5,8 @@ package com.shake.mall.model;/*
  */
 
 public class Order {
+
+    private int itemId;
+
+
 }

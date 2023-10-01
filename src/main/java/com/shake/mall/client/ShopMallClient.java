@@ -7,7 +7,6 @@ package com.shake.mall.client;/*
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(name = "shopmall" )
-
 public interface ShopMallClient {
     @GetMapping("test")
     public String test();
